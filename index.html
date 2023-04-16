@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tỏ tình Kim Ngân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFC0CB;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 36px;
+            color: #FFFFFF;
+        }
+        button {
+            font-size: 24px;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #FFB6C1;
+            border-color: #FFB6C1;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kim Ngân ơi, liệu anh có phải là người mà em đang tìm kiếm?</h1>
+    <button id="agree">Đồng ý</button>
+    <button id="disagree">Không</button>
+    <script>
+        document.getElementById("agree").addEventListener("click", function() {
+            alert("Đồng ý cái loz :)))))");
+        });
+        document.getElementById("disagree").addEventListener("click", function() {
+            alert("Mẹ m thích giỡn mặt ko? Bố m đùa với m à?");
+        });
+    </script>
+</body>
+</html>
